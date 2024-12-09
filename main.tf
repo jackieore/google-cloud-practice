@@ -1,10 +1,13 @@
-
-provider "google" {
-  project = var.project_id
-  region  = var.region
+provider "aws" {
+  region = "us-west-2"
 }
 
-resource "google_storage_bucket" "bucket" {
-  name     = var.bucket_name
-  location = var.region
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = "jackietest-9374864t"
+
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
 }
