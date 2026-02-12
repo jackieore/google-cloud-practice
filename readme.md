@@ -5,6 +5,10 @@ A beginner-friendly, low-cost static website hosting project using Google Cloud 
 
 > 🚀 **Work in progress** - Continuously improving Google Cloud skills through hands-on projects!
 
+## 🌟 **[🔗 View Live Website](https://storage.googleapis.com/jackie-website-76e785aa/index.html)**
+
+*Click above to see the deployed static website running on Google Cloud!*
+
 [![My Skills](https://skillicons.dev/icons?i=gcp,terraform,html,css&perline=4)](https://skillicons.dev)
 
 ## 📋 What This Project Does
