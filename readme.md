@@ -3,6 +3,8 @@
 
 A beginner-friendly, low-cost static website hosting project using Google Cloud Platform and Terraform.
 
+> 🚀 **Work in progress** - Continuously improving Google Cloud skills through hands-on projects!
+
 [![My Skills](https://skillicons.dev/icons?i=gcp,terraform,html,css&perline=4)](https://skillicons.dev)
 
 ## 📋 What This Project Does
@@ -116,5 +118,13 @@ This project teaches:
 - Integrate with Cloud Functions for dynamic content
 
 ---
+
+Happy Coding! 🚀
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=gcp,terraform,git" />
+  </a>
+</p>
 
 *Last updated: February 2026*
