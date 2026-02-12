@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your actual values
+# terraform.tfvars will be ignored by git to keep your secrets safe
+
+project_id = "your-gcp-project-id-here"
+region     = "us-central1"
+bucket_prefix = "your-name-website"
+domain_name = "your-domain.com"  # Optional: remove SSL resources if you don't have a domain

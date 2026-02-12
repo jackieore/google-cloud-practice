@@ -1,3 +1,5 @@
-project_id = "your-project-id"
-region      = "us-west-2"
-bucket_name = "jackietest-9374864t"
+# Using your existing GCP project
+project_id = "practicemakesperfect-443802"
+region     = "us-central1"
+bucket_prefix = "jackie-website"
+# domain_name = "your-domain.com"  # Uncomment if you have a domain

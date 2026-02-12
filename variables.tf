@@ -1,16 +1,23 @@
 variable "project_id" {
-  description = "The ID of the project in which to create the bucket"
+  description = "The Google Cloud Project ID"
   type        = string
+  # This will be set via terraform.tfvars (not tracked in git)
 }
 
 variable "region" {
-  description = "The AWS region to create resources in"
+  description = "The Google Cloud region to create resources in"
   type        = string
-  default     = "us-west-2"
+  default     = "us-central1"
 }
 
-variable "bucket_name" {
-  description = "The name of the S3 bucket"
+variable "bucket_prefix" {
+  description = "Prefix for the storage bucket name (will be made unique)"
   type        = string
-  default     = "jackietest-9374864t"
+  default     = "jackie-website"
+}
+
+variable "domain_name" {
+  description = "Domain name for the website (optional, for SSL certificate)"
+  type        = string
+  default     = "example.com" # Change this to your domain or remove SSL resources if not needed
 }
